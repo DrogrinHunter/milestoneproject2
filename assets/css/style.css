@@ -23,6 +23,7 @@
 .jumbotron {
     background-image: url("https://cdn.psychologytoday.com/sites/default/files/field_blog_entry_images/2019-06/howcuttingdo.jpg");
     background-size: cover;
+    height: 300px;
 }
 
 .jumbotron-heading {
@@ -38,6 +39,19 @@
     color: #fffff6;
     font-size: 25px;
 }
+
+.recipe-container {
+    display: flex;
+    justify-content: center;
+    background: yellow
+}
+
+.recipe-index-main {
+    width: 700px;
+    margin: 10px;
+    background: grey
+}
+
 
 /* Nav Bar */
 /* .hover-link-nav:hover {
